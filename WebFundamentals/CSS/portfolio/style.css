@@ -1,0 +1,139 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+#wrapper{
+	background-color: #fbfbfb;
+	height: 900px;
+	width: 1024px;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.left_heading{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+	display: inline-block;
+	line-height: 60px;
+	text-indent: 20px;
+}
+
+.right_heading{
+	float: right;
+	font-weight: bold;
+	font-size: 1.4em;
+	display: inline-block;
+	line-height: 60px;
+	margin-right: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+	background: radial-gradient(#a88898, #6f5964, #1f0e13); 
+}
+
+.me_pic{
+	width:450px;
+	display: inline-block;
+	overflow: hidden;
+	border: 5px solid #c0c0c0;
+	margin: 20px;
+}
+
+.about{
+	width: 490px;
+	height:305px;
+	display: inline-block;
+	overflow: hidden;
+	background: linear-gradient(-90deg, #dacbd9, #fefefe);
+	margin-bottom: 20px;
+}
+
+h2, h3{
+	background:linear-gradient(#acabb0, #878593, #acabb0);
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+p, a{
+	font-size: 1.1em;
+	margin: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.la_mode{
+	width:310px;
+	height: 630px;
+	margin: 0px 20px 20px 20px;
+	display: inline-block;
+	overflow: hidden;
+	background: linear-gradient(-90deg, #fefefe, #dacbd9);
+}
+
+.family_contacts{
+	width:310px;
+	height: 630px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	overflow: hidden;
+	background: linear-gradient(-90deg, #dacbd9, #fefefe);
+}
+
+.five_eleven{
+	width:310px;
+	height: 630px;
+	display: inline-block;
+	margin-bottom: 20px;
+	overflow: hidden;
+	background: linear-gradient(-90deg, #dacbd9, #fefefe);
+}
+
+.pj_pic{
+	width: 310px;
+	overflow: hidden;
+}
+
+.thumbnails img{
+	width: 35px;
+	margin: 10px;
+}
+
+.footer img{
+	width: 15px;
+}
+
+.description{
+	height:180px;
+	font-size: 1em;
+}
+
+.footer, a:link{
+	text-align: center;
+	font-style: italic;
+	color: black;
+	margin-bottom: 10px;
+}
+
+.footer p{
+	font-style:normal;
+}
+
+button{
+	height: 35px;
+	width: auto;
+	padding: 0px 10px;
+	background-color: #407d61;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	color: white;
+}
+
+.button_wrapper{
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+}

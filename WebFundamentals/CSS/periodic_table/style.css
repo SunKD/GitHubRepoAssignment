@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    background-color: #689bff;
+    margin: 2px;
+}
+
+span{
+    display: block;
+    text-align: center;
+}
